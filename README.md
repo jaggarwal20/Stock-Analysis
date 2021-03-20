@@ -35,7 +35,8 @@ The original script was hardcoded to read one sheet, therefore a manual change w
 The script took 5.05 seconds to run through 2017 and 5.70 seconds to run through 2018.
 
 ![alt text](Resources/Original_2017.png)
-   ![alt_text](Resources/Original_2018.png)
+
+![alt_text](Resources/Original_2018.png)
 
 #### 2.1.2 Refactored Script
 
