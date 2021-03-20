@@ -7,6 +7,8 @@ Performing analysis on stocks to calcualte the daily total volumen and return
   * 1.2 Tools
 - [2.0 Results](#Results)
   * 2.1 Stock Performance 2017 and 2018
+    * 2.1.1 2017
+    * 2.1.2 2018 
 - [3.0 Summary](#Summary)
 - [4.0 Challenges](#Challenges)
 
