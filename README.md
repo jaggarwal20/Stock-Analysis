@@ -53,7 +53,9 @@ The main challenges faced in this module was understanding how an index should b
 ![alt text](Resources/Challenge_return.png)  
 
 This was unclear as to why the volumes were outputting correctly, but the start and end ticker prices were not. When entertering a message box to print the starting and ending price for each stock, I could identify that the script was not working properly as each stock had the same starting and ending price which was the ending price for VSLR by typing in the following into the code:
+
 `MsgBox (ticker & " starting " & tickerStartingPrices(tickerIndex))`
+
 `MsgBox (ticker & " ending " & tickerEndingPrices(tickerIndex))`
 
 ![alt text](Resources/MsgBox_EndingPrice.png)
