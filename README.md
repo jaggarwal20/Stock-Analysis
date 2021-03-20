@@ -1,3 +1,4 @@
+![alt text](Resources/Challenge_return.png)
 # Stock-Analysis
 Performing analysis on stocks to calcualte the daily total volumen and return
 
