@@ -53,10 +53,11 @@ The stocks code did run faster when refactoring the code, but unfortunately it i
 <a name="Challenges"></a>
 ## 4.0 Challenges
 
-The main challenges faced in this module was understanding how an index should be written in VBA.  The module did not clearly explain this, so therefore days were spent trying to understand how an index should be written in VBA. Another challenge faced was understanding what the code was exactly doing.  After attending many office hours it was clear how to interpret the code.  I also had a challenge outputting the yearly percentage return for every stock, but did not have an issue outputting the yearly volume.  
+The main challenges faced in this module was learning a new language and understanding how an index should be written in VBA.  The module did not clearly explain how to create an index, so therefore days were spent trying to understand how an index should be written in VBA. Another challenge faced was understanding what the code was exactly doing and learning how to read VBA. After attending many office hours it was clear how to interpret the code, which enabled me to understnad how to identify errors and gaps in my code.  I was able to identify where there was an error in my code when outputting the yearly percentage return for every stock, but did not have an issue outputting the yearly volume.  
+
 ![alt text](Resources/Challenge_return.png)  
 
-This was unclear as to why the volumes were outputting correctly, but the start and end ticker prices were not. When entertering a message box to print the starting and ending price for each stock, I could identify that the script was not working properly as each stock had the same starting and ending price which was the ending price for VSLR by typing in the following into the code:
+This issue was very unclear to me as the volumes were outputting correctly, but the start and end ticker prices were not. When entertering a message box to print the starting and ending price for each stock, I could identify that the script was not working properly as each stock had the same starting and ending price which was the ending price for VSLR by typing in the following into the code:
 
 `MsgBox (ticker & " starting " & tickerStartingPrices(tickerIndex))`
 
