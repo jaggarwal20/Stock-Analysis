@@ -38,7 +38,11 @@ The script took 5.05 seconds to run through 2017 and 5.70 seconds to run through
 ![alt_text](Resources/Original_2018.png)
 
 #### 2.1.2 Refactored Script
-This script allowed for the user to choose which year the script should analyze, by setting a variable "yearValue". An index was created 
+The refactored script allows for efficient run time for thousands of entries where the original script could only be efficiently run for a few hundred. The difference in run time demonstrates how the refactored code is more efficient.
+This script allowed for the user to choose which year the script should analyze, by setting a variable "yearValue". 
+
+![alt text](Resources/Year_Value.png)
+
 The refactored script took 0.89 seconds to run through 2017 and 0.94 seconds to run through 2018. The script ran this quickly once a button was added to the xlsm file. Previously when running the script out of the developer macro screen it was taking roughly 4.5 seconds to run for each year. 
 
 ![alt text](Resources/Refactored_2017.png)
