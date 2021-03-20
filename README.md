@@ -39,6 +39,10 @@ The script took 5.05 seconds to run through 2017 and 5.70 seconds to run through
 
 #### 2.1.2 Refactored Script
 This script allowed for the user to choose which year the script should analyze, by setting a variable "yearValue". An index was created 
+The refactored script took 4.27 seconds to run through 2017 and 4.29 seconds to run through 2018. 
+
+![alt text](Resources/Refactored_2017.png)
+![alt text](Resources/Refactored_2018.png)
 
 <a name="Summary"></a>
 ## 3.0 Summary
