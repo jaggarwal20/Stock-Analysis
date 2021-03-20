@@ -50,9 +50,9 @@ The refactored script took 0.89 seconds to run through 2017 and 0.94 seconds to 
 
 <a name="Summary"></a>
 ## 3.0 Summary
-The advantages of refactoring a code, is that it typically runs faster, by being more efficient. It also should improve the readability of the code. The disadvantages are that it requires additional time to refactor code. The refactored code could introduce more errors into the code or alter what the code should be doing.  
+The advantages of refactoring a code, is that it typically runs faster, by being more efficient and using less memory. It also should improve the readability of the code. The disadvantages are that it requires additional time to refactor code. The refactored code could introduce more errors into the code or alter what the code should be doing.  
 
-The stocks code did run faster when refactoring the code and now the code can be run on any year of choice with the message box prompt at the beginning. This allows for flexibility and no rewritting of the code itself. 
+The stocks code did run faster when refactoring the code and now the code can be run on any year of choice with the message box prompt at the beginning. This allows for flexibility and no need to enter the macro itself and rewrite the code itself. 
 
 <a name="Challenges"></a>
 ## 4.0 Challenges
