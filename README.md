@@ -8,7 +8,6 @@ Performing analysis on stocks to calcualte the daily total volumen and return
 - [2.0 Results](#Results)
   * 2.1 Stock Performance 2017 and 2018
 - [3.0 Summary](#Summary)
-  * 3.1 Stock Performance 2017 and 2018
 - [4.0 Challenges](#Challenges)
 
 <a name="Introduction"></a>
@@ -23,7 +22,7 @@ Steve wants to know how the stocks performed in 2017 and 2018 with a click of a 
  
 <a name="Results"></a>
 ## 2.0 Results
-### 2.1 Theater Outcomes by Launch Date
+### 2.1 Stock Performance 2017 and 2018
 The peak months, April to August, are when the most theaters met or exceeded their goal. The maximum number of plays is in the month of May, and the ratio of successful vs failed is also the greatest in May and June.  From 2009 - 2013 all the plays were successful and then there is a sharp increase in the total number of plays after that.
 ![alt test](Resources/Theater_Outcomes_vs_Launch.png)
 
