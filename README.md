@@ -24,22 +24,16 @@ Steve wants to know how the stocks performed in 2017 and 2018 with a click of a 
 <a name="Analysis-and-Challenges"></a>
 ## 2.0 Analysis and Challenges
 ### 2.1 Theater Outcomes by Launch Date
+#### 2.1.1 Analysis
 The analysis for “Theater Outcomes by Launch Date” was created by first editing the time stamps from Unix to a short date, and then creating a pivot table to aggregate the data.  By translating the Unix time stamp to short date using the following formula: 
 
 `=((("Unix Date"/60)/60)/24)+DATE(1970,1,1)`. 
 
 A pivot table was created to display the outcome of the theaters based off of the month that they were launched. This way you can filter on the year the theater was launched to see if there is a trend in the data, as well as to see if there is an overall trend over the years.   
 ![alt text](Resources/Pivot_Table.png)
-The main challenges faced in this, was sorting the outcomes in descending order. This was overcome by googling how to sort rows in a pivot table, and confirming the if the proper actions were taken by comparing the work to the challenge in the bootcamp course page.
-
-### 2.2 Outcomes Based on Goals
-The analysis for "Outcomes Based on Goals" was created by creating a table in a new sheet by listing out the column and row headers.  The table was populated with the count of each "successful", "failed", and "canceled" plays in $5,000 intervals. Below is an example of the Countifs formula used.
-
-`=COUNTIFS("Goal_Column">=1000","Goal_Column","<5000","Subcategory_Column","plays","Outcome_Column","successful")`
-
-The totals of "successful", "failed", and "canceled" plays were converted to percentages to be able to compare the goal ranges on a common scale.   
-![alt test](Resources/Outcomes_Goals_Chart.png)
-The main challenges were copying the row ranges correctly into the Excel file.  Initially a row was missed, which caused the sum of two goal ranges to be combined.  This caused the step interval to change. Another challenge was having the correct "Countifs" statement written.  After refrencing a exceljet I was able to properly formulate the formula with multiple conditions, as the formatting is different than an "If" statement.
+#### 2.1.2 Challenges
+The main challenges faced in this module was understanding how an index should be written in VBA.  The module did not clearly explain this, so therefore days were spent trying to understand how an index should be written in VBA. Another challenge faced was understanding what the code was exactly doing.  After attending many office hours it was clear how to interpret the code.  I also had a challenge outputting the yearly percentage return for every stock, but did not have an issue outputting the yearly volume.  This was unclear as to why the volumes were outputting correctly, but the start and end ticker prices were not. 
+(Resources/Challenge_Return.png)
 
 <a name="Results"></a>
 ## 3.0 Results
@@ -49,12 +43,6 @@ The peak months, April to August, are when the most theaters met or exceeded the
 
 The availability of data limited the analysis, as data from 2009 to 2013 only contianed successful plays.  The data could also be displayed in a bar chart.
 
-### 3.2 Outcomes Based on Goals
-The percentage of successful vs failed plays has an inverse relationship when split into goal ranges. Plays are successful for goals that are under $1500 and meet at an intersect where majority of the plays failed till $35,000.  Plays were more successful from $35,000 to $50,000, and beyond that the plays have a higher rate to fail than succeed.  
-![alt test](Resources/Outcomes_vs_Goals.png)
-
-The data has limitations as the currency for each goal varies globally, and the data was not coverted into a standard currency to properly compare the range of successful, failed, and canceled plays.  The data could be dispalyed in a stacked percentage bar chart, or multiple pie charts. 
 <a name="Resources"></a>
 ## 4.0 Resources
-exceljet.net - how to write a countifs statement
-support.microsoft.com - how to sort columns and rows in a pivot table
+Office Hours
