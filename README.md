@@ -7,8 +7,8 @@ Performing analysis on stocks to calcualte the daily total volumen and return
   * 1.2 Tools
 - [2.0 Results](#Results)
   * 2.1 Stock Performance 2017 and 2018
-    * 2.1.1 2017
-    * 2.1.2 2018 
+    * 2.1.1 Original Script
+    * 2.1.2 Refactored Script
 - [3.0 Summary](#Summary)
 - [4.0 Challenges](#Challenges)
 
@@ -29,10 +29,11 @@ When comparing the reuslts between 2017 and 2018 for the 11 stocks, it can be se
 
 ![alt text](Resources/stock_comparison.png)
 
-#### 2.1.1 2017
+#### 2.1.1 Original Script
+The original script was hardcoded to read one sheet, therefore a manual change was required in order to read another sheet.  
 
 
-#### 2.1.2 2018
+#### 2.1.2 Refactored Script
 
 <a name="Summary"></a>
 ## 3.0 Summary
