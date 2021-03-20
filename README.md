@@ -32,7 +32,8 @@ The 2017 and 2018 stock performance consists of analyzing 12 stocks. The dataset
 #### 2.1.1 Original Script
 The original script was hardcoded to read one sheet, therefore a manual change was required in order to read another sheet.  
 `Worksheets("2018").Activate`
-The script took 5.05 seconds to run through 2017 and 5.70 seconds to run through 2018. 
+The script took 5.05 seconds to run through 2017 and 5.70 seconds to run through 2018.
+
 ![alt text](Resources/Original_2017.png)
 ![alt_text](Resources/Original_2018.png)
 
