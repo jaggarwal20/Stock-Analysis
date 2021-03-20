@@ -23,14 +23,16 @@ Steve wants to know how the stocks performed in 2017 and 2018 with a click of a 
 <a name="Results"></a>
 ## 2.0 Results
 ### 2.1 Stock Performance 2017 and 2018
-The peak months, April to August, are when the most theaters met or exceeded their goal. The maximum number of plays is in the month of May, and the ratio of successful vs failed is also the greatest in May and June.  From 2009 - 2013 all the plays were successful and then there is a sharp increase in the total number of plays after that.
-![alt test](Resources/Theater_Outcomes_vs_Launch.png)
+When comparing the reuslts between 2017 and 2018 for the 11 stocks, it can be seen that the rate of return was significantly higher for a majority of the stocks. The only stock that increased in 2018 was 'RUN'. The rate of return of this stock went from 5.5% to 84.0%. Although the rate of return decreased for a majority of the stocks, there was an overall increase the total daily volumes for the wells. 
 
-The availability of data limited the analysis, as data from 2009 to 2013 only contianed successful plays.  The data could also be displayed in a bar chart.
+![alt text](Resources/stock_comparison.png)
 
 <a name="Summary"></a>
 ## 3.0 Summary
-The advantages of refactoring a code, is that it typically runs faster, by being more efficient. The disadvantages is that it may be harder to interpret. 
+The advantages of refactoring a code, is that it typically runs faster, by being more efficient. It also should improve the readability of the code. The disadvantages are that it requires additional time to refactor code. The refactored code could introduce more errors into the code or alter what the code should be doing.  
+
+The stocks code did run faster when refactoring the code, but unfortunately it introduced more errors, such as being unable to pull the starting and ending prices for each code properly.  
+
 <a name="Challenges"></a>
 ## 4.0 Challenges
 
