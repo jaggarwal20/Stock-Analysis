@@ -33,7 +33,7 @@ A pivot table was created to display the outcome of the theaters based off of th
 ![alt text](Resources/Pivot_Table.png)
 #### 2.1.2 Challenges
 The main challenges faced in this module was understanding how an index should be written in VBA.  The module did not clearly explain this, so therefore days were spent trying to understand how an index should be written in VBA. Another challenge faced was understanding what the code was exactly doing.  After attending many office hours it was clear how to interpret the code.  I also had a challenge outputting the yearly percentage return for every stock, but did not have an issue outputting the yearly volume.  This was unclear as to why the volumes were outputting correctly, but the start and end ticker prices were not. 
-(Resources/Challenge_return.png)
+![alt text](Resources/Challenge_return.png)
 
 <a name="Results"></a>
 ## 3.0 Results
