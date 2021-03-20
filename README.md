@@ -16,7 +16,7 @@ Performing analysis on stocks to calcualte the daily total volumen and return
 ## 1.0 Introduction
 
 ### 1.1 Purpose
-Steve wants to know how 12 stocks performed in 2017 and 2018 with a click of a button. This code should run efficiently and also provide the yearly information needed for the year requested.  He wants to know the yearly return as well as volume. 
+Steve wants to know how 12 stocks performed in 2017 and 2018 with a click of a button. This code should run efficiently and also provide the yearly wolumes needed for the year requested, and the yearly return as well as volume. 
 
 ### 1.2 Tools
 - Excel
@@ -48,7 +48,7 @@ The refactored script took 4.27 seconds to run through 2017 and 4.29 seconds to 
 ## 3.0 Summary
 The advantages of refactoring a code, is that it typically runs faster, by being more efficient. It also should improve the readability of the code. The disadvantages are that it requires additional time to refactor code. The refactored code could introduce more errors into the code or alter what the code should be doing.  
 
-The stocks code did run faster when refactoring the code, but unfortunately it introduced more errors, such as being unable to pull the starting and ending prices for each code properly.  
+The stocks code did run faster when refactoring the code and now the code can be run on any year of choice with the message box prompt at the beginning. This allows for flexibility and no rewritting of the code itself. 
 
 <a name="Challenges"></a>
 ## 4.0 Challenges
